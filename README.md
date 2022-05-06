@@ -25,17 +25,17 @@ Para el sistema iot básico que se utiliza en la simulación se evidencian ciert
 
 Una vez identificado el hardware que se está utilizando para la simulación, es necesario conocer el software utilizado y necesario para hacer la programación de los dispositivos físicos mencionados anteriormente y más impórtate, como recolectar los datos y enviarlos a un servicio externo para su manipulación. Dicho software es:
 
--   lenguaje de programación Nodejs
+-   Lenguaje de programación Nodejs
 -   Librería wiring-pi (Manejo de pines Raspberry pi)
 -   Librería de conexión a azure IOT
--   librería para el manejo del protocolo MQTT
--   libreria bme280 (lectura del sensor)
+-   Librería para el manejo del protocolo MQTT
+-   Libreria bme280 (lectura del sensor)
 -   Plataforma cloud Azure
 
 ### [](https://github.com/Dacosta011/Workshop6#conectivity)Conectivity 
 Para la trasmisión de datos conformamos la conectividad basados en el siguiente modelo de comunicación dividido en 3 capas las cuales son Comunicación Física, Protocolo de comunicación y Protocolo de Aplicación.
 
-<img width="1195" alt="Captura de Pantalla 2022-05-05 a la(s) 10 32 48 p m" src="https://user-images.githubusercontent.com/74270748/167066663-23ee03d8-a7ea-475d-b033-498213ae835f.png">
+[![Modelo de comunicación tomado presentaciones de clase] <img width="1195" alt="Captura de Pantalla 2022-05-05 a la(s) 10 32 48 p m" src="https://user-images.githubusercontent.com/74270748/167066663-23ee03d8-a7ea-475d-b033-498213ae835f.png">
 
 
 - Comunicación física:  Tras conectar el sensor de temperatura BME280 a la Raspberry Pi satisfactoriamente se requiere contar con una conexión física vía puerto Ethernet por medio del cable micro USB a la red de internet y por ende a la fuente de poder.
