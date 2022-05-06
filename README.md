@@ -1,8 +1,7 @@
 # Workshop # 6 Automatización
 
 Integrantes:
-Brayan David Acosta Gomez 
-Valentina Osorio Lopez
+Brayan David Acosta Gomez y Valentina Osorio Lopez
 
 ## [](https://github.com/Dacosta011/Workshop6#identificaci%C3%B3n-del-modelo-basico-iot)Identificación del modelo basico IOT
 
